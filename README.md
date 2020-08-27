@@ -11,7 +11,7 @@ I've used requests and bs4(beautiful soup) for the main scraping and playsound l
 
 # INSTALLATION
 ```
-pip install requests<br/>
-pip install bs4<br/>
-pip install playsound<br/>
+pip install requests
+pip install bs4
+pip install playsound
 ```
