@@ -10,6 +10,8 @@ Made this for a Trader Chigga on Discord.<br/>
 I've used requests and bs4(beautiful soup) for the main scraping and playsound library to ring the funni bruh alarm.<br/>
 
 # INSTALLATION
->pip install requests<br/>
->pip install bs4<br/>
->pip install playsound<br/>
+```
+pip install requests<br/>
+pip install bs4<br/>
+pip install playsound<br/>
+```
