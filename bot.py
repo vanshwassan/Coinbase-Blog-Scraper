@@ -50,11 +50,21 @@ def CheckPost():
         print(link2[0]['href'])
         print("TIMESTAMP: " + date2[0].get_text())
         playsound('sound.mp3')
-n = 5
-count = 0
-while n > 0:
-    count = count + 1
-    print("PING_REQ: ", count)
-    CheckPost()
+        
+try:
+    n = 5
+    count = 0
+    while n > 0:
+        count = count + 1
+        print("PING_REQ: ", count)
+        CheckPost()
+except:
+    sleep(10)
+    n = 5
+    count = 0
+    while n > 0:
+        count = count + 1
+        print("PING_REQ: ", count)
+        CheckPost()
 
 input("Press Enter to continue...")
